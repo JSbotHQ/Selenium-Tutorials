@@ -32,6 +32,10 @@ public class VerifyWebElement {
         boolean ButtonEnabled = GoogleSearchButton.isEnabled();
         System.out.println("Google search button is enable? : "+ButtonEnabled);
 
+        //Verify web element is selected.
+        boolean ButtonSelected = GoogleSearchButton.isSelected();
+        System.out.println("Google search button selected? : "+ButtonSelected);
+
         //Quit browser.
         driver.quit();
     }
